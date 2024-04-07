@@ -81,6 +81,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_space,  zoom,           {0} }, 		    /* SPACE [Make selected window the master] */
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,             			XK_q,      killclient,     {0} }, 		
+    { MODKEY,             			XK_s,      togglesticky,   {0} }, 		
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} }, /* tiling */
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} }, /* floating */
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} }, /*  monocle */
